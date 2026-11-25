@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Схема: сосуд с молекулами идеального газа">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#171028"/>
+  <stop offset="0.55" stop-color="#1d1533"/>
+  <stop offset="1" stop-color="#241a3f"/>
+</linearGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+  <circle cx="3" cy="3" r="1.3" fill="#a78bfa" opacity="0.28"/>
+</pattern>
+<marker id="ar-ink" markerWidth="12" markerHeight="12" refX="10" refY="6" viewBox="0 0 12 12" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11 Z" fill="#ece5ff"/></marker>
+<marker id="ar-accent" markerWidth="12" markerHeight="12" refX="10" refY="6" viewBox="0 0 12 12" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11 Z" fill="#a78bfa"/></marker>
+<marker id="ar-blue" markerWidth="12" markerHeight="12" refX="10" refY="6" viewBox="0 0 12 12" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11 Z" fill="#d946ef"/></marker>
+<marker id="ar-warm" markerWidth="12" markerHeight="12" refX="10" refY="6" viewBox="0 0 12 12" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11 Z" fill="#fbbf24"/></marker>
+<marker id="ar-red" markerWidth="12" markerHeight="12" refX="10" refY="6" viewBox="0 0 12 12" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11 Z" fill="#fb7185"/></marker>
+<marker id="ar-green" markerWidth="12" markerHeight="12" refX="10" refY="6" viewBox="0 0 12 12" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11 Z" fill="#34d399"/></marker>
+</defs>
+<rect width="800" height="450" fill="url(#bg)"/>
+<rect width="800" height="450" fill="url(#dots)"/>
+<rect x="16" y="16" width="768" height="418" rx="26" fill="none" stroke="#5b4a86" stroke-width="2" stroke-dasharray="10 9"/>
+
+  <rect x="210" y="140" width="380" height="212" rx="18" fill="#2f2354" fill-opacity="0.72" stroke="#ece5ff" stroke-width="5"/>
+  <circle cx="250" cy="180" r="6" fill="#a78bfa" opacity="0.9"/><circle cx="300" cy="168" r="4.5" fill="#fbbf24" opacity="0.75"/><circle cx="356" cy="190" r="7" fill="#ece5ff" opacity="0.75"/><circle cx="420" cy="172" r="5" fill="#d946ef" opacity="0.9"/><circle cx="480" cy="190" r="6.5" fill="#a78bfa" opacity="0.75"/><circle cx="530" cy="172" r="4.5" fill="#fbbf24" opacity="0.75"/><circle cx="236" cy="240" r="5" fill="#ece5ff" opacity="0.9"/><circle cx="286" cy="226" r="7" fill="#d946ef" opacity="0.75"/><circle cx="342" cy="244" r="4.5" fill="#a78bfa" opacity="0.75"/><circle cx="400" cy="228" r="6" fill="#fbbf24" opacity="0.9"/><circle cx="462" cy="244" r="5" fill="#ece5ff" opacity="0.75"/><circle cx="516" cy="230" r="7" fill="#d946ef" opacity="0.75"/><circle cx="552" cy="262" r="4.5" fill="#a78bfa" opacity="0.9"/><circle cx="252" cy="300" r="7" fill="#fbbf24" opacity="0.75"/><circle cx="314" cy="296" r="5" fill="#ece5ff" opacity="0.75"/><circle cx="368" cy="312" r="6" fill="#d946ef" opacity="0.9"/><circle cx="428" cy="292" r="4.5" fill="#a78bfa" opacity="0.75"/><circle cx="486" cy="308" r="6.5" fill="#fbbf24" opacity="0.75"/><circle cx="540" cy="296" r="5" fill="#ece5ff" opacity="0.9"/><circle cx="286" cy="324" r="4.5" fill="#d946ef" opacity="0.75"/>
+  <line x1="318" y1="212" x2="338" y2="202" stroke="#ece5ff" stroke-width="2" opacity="0.5" marker-end="url(#ar-ink)"/>
+  <line x1="468" y1="280" x2="489" y2="270" stroke="#ece5ff" stroke-width="2" opacity="0.5" marker-end="url(#ar-ink)"/>
+  <line x1="412" y1="316" x2="412" y2="336" stroke="#ece5ff" stroke-width="2" opacity="0.45" marker-end="url(#ar-ink)"/>
+  
+<g>
+  <rect x="44" y="40" width="266" height="36" rx="14" fill="#241a3f" opacity="0.9"/>
+  <text x="62" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="1.4" font-weight="700" fill="#b9a8e0">ЗАГЛУШКА · ИЛЛЮСТРАЦИЯ</text>
+  <text x="754" y="410" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#9b8fc0">МКТ</text>
+</g>
+</svg>

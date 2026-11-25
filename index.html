@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Физика 10 класс — обзор курса</title>
+  <meta name="description" content="Физика 10 класса: разделы курса, ключевые формулы и советы по подготовке. Плюс интерактивная викторина из 12 вопросов и вкладка об авторе.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%238b5cf6'/%3E%3Ctext x='32' y='45' font-family='Arial' font-size='36' font-weight='bold' fill='white' text-anchor='middle'%3E%E2%9A%9B%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="grid-lines"></span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#course" data-tab-link="course" aria-label="Физика 10 — на главную">
+      <span class="brand-mark">⚛</span>
+      <span class="brand-copy">
+        <strong>Физика 10</strong>
+        <span>курс и викторина</span>
+      </span>
+    </a>
+
+    <nav class="tabs" role="tablist" aria-label="Разделы сайта">
+      <button class="tab is-active" type="button" role="tab" id="tabCourseBtn" aria-selected="true" aria-controls="tab-course" data-tab="course">О предмете</button>
+      <button class="tab" type="button" role="tab" id="tabQuizBtn" aria-selected="false" aria-controls="tab-quiz" data-tab="quiz" tabindex="-1">Викторина</button>
+      <button class="tab" type="button" role="tab" id="tabAuthorBtn" aria-selected="false" aria-controls="tab-author" data-tab="author" tabindex="-1">Об авторе</button>
+    </nav>
+  </header>
+
+  <main class="shell">
+
+    <!-- ============ ВКЛАДКА: О ПРЕДМЕТЕ ============ -->
+    <section class="tab-panel is-active" id="tab-course" role="tabpanel" aria-labelledby="tabCourseBtn" tabindex="0">
+      <div class="hero hero-course">
+        <div class="hero-copy">
+          <p class="eyebrow">10 класс · школьный курс</p>
+          <h1 id="courseTitle">Физика<br>10 класса</h1>
+          <p class="lead">
+            Механика, молекулярная физика, термодинамика и электричество —
+            коротко о том, что изучает курс, какие формулы пригодятся
+            и как проверить свои знания.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="button" data-go="quiz">Пройти викторину →</button>
+            <a class="btn btn-ghost" href="#course-sections">Разделы курса</a>
+          </div>
+          <ul class="hero-stats">
+            <li><b>5</b><span>разделов</span></li>
+            <li><b>8</b><span>формул</span></li>
+            <li><b>12</b><span>вопросов</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <span class="orbit orbit-1"></span>
+          <span class="orbit orbit-2"></span>
+          <span class="core">⚛</span>
+          <span class="formula formula-1">F = m·a</span>
+          <span class="formula formula-2">pV = νRT</span>
+          <span class="formula formula-3">E = mv²/2</span>
+          <span class="formula formula-4">I = U/R</span>
+        </div>
+      </div>
+
+      <div class="section-head" id="course-sections">
+        <h2>Что изучает физика в 10 классе</h2>
+        <p>Пять больших тем — от движения тел до электричества</p>
+      </div>
+
+      <div class="module-grid">
+        <article class="module-card">
+          <div class="module-top">
+            <span class="module-num">01</span>
+            <span class="module-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18c5.5 0 6-12 12-12"/><path d="M11 6h4v4"/><path d="M3 18h3"/></svg>
+            </span>
+          </div>
+          <h3>Кинематика</h3>
+          <p>Описание движения без выяснения причин: координаты, перемещение, скорость и ускорение. Учимся читать графики и решать задачи на равноускоренное движение.</p>
+          <div class="module-formula">v = v₀ + at · s = v₀t + at²/2</div>
+          <button class="module-link" type="button" data-quiz-topic="kinematics">Проверить себя →</button>
+        </article>
+
+        <article class="module-card">
+          <div class="module-top">
+            <span class="module-num">02</span>
+            <span class="module-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.8l8 4.6v9.2l-8 4.6-8-4.6V7.4z"/><path d="M12 12l8-4.6M12 12L4 7.4M12 12v9.2"/></svg>
+            </span>
+          </div>
+          <h3>Динамика и законы сохранения</h3>
+          <p>Законы Ньютона объясняют, почему тела меняют скорость. Сюда же — импульс, работа, мощность и закон сохранения энергии.</p>
+          <div class="module-formula">F = ma · p = mv</div>
+          <button class="module-link" type="button" data-quiz-topic="dynamics">Проверить себя →</button>
+        </article>
+
+        <article class="module-card">
+          <div class="module-top">
+            <span class="module-num">03</span>
+            <span class="module-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="2.6"/><circle cx="17.5" cy="9" r="2.4"/><circle cx="9.5" cy="17.5" r="2.4"/><path d="M9.4 8.1l5.6.7M8.1 9.5l.9 5.3M15.9 11l-4.2 4.8"/></svg>
+            </span>
+          </div>
+          <h3>Молекулярная физика</h3>
+          <p>Строение вещества и свойства идеального газа: концентрация молекул, давление, температура и уравнение состояния.</p>
+          <div class="module-formula">pV = νRT</div>
+          <button class="module-link" type="button" data-quiz-topic="molecular">Проверить себя →</button>
+        </article>
+
+        <article class="module-card">
+          <div class="module-top">
+            <span class="module-num">04</span>
+            <span class="module-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v2M12 19v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M3 12h2M19 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/><circle cx="12" cy="12" r="4.2"/></svg>
+            </span>
+          </div>
+          <h3>Термодинамика</h3>
+          <p>Внутренняя энергия, количество теплоты, работа газа и первый закон термодинамики. Разбираемся, куда «уходит» энергия.</p>
+          <div class="module-formula">Q = ΔU + A</div>
+          <button class="module-link" type="button" data-quiz-topic="molecular">Проверить себя →</button>
+        </article>
+
+        <article class="module-card">
+          <div class="module-top">
+            <span class="module-num">05</span>
+            <span class="module-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 2.5L4.5 14H11l-1 7.5L19.5 10H13z"/></svg>
+            </span>
+          </div>
+          <h3>Электродинамика</h3>
+          <p>Электрические заряды, закон Кулона, напряжённость поля, постоянный ток и закон Ома для участка цепи.</p>
+          <div class="module-formula">F = k|q₁q₂|/r² · I = U/R</div>
+          <button class="module-link" type="button" data-quiz-topic="electricity">Проверить себя →</button>
+        </article>
+      </div>
+
+      <div class="section-head">
+        <h2>Формулы, без которых не обойтись</h2>
+        <p>Минимальный набор для решения задач</p>
+      </div>
+
+      <div class="formula-grid">
+        <article class="formula-card">
+          <span class="formula-tag">Второй закон Ньютона</span>
+          <b>F = m · a</b>
+          <p>Ускорение прямо пропорционально равнодействующей силе и обратно пропорционально массе тела.</p>
+        </article>
+        <article class="formula-card">
+          <span class="formula-tag">Равноускоренное движение</span>
+          <b>s = v₀t + at²/2</b>
+          <p>Перемещение при постоянном ускорении. Если начальная скорость равна нулю, путь равен at²/2.</p>
+        </article>
+        <article class="formula-card">
+          <span class="formula-tag">Импульс тела</span>
+          <b>p = m · v</b>
+          <p>Векторная величина. Изменение импульса равно импульсу силы: Δp = F · Δt.</p>
+        </article>
+        <article class="formula-card">
+          <span class="formula-tag">Кинетическая энергия</span>
+          <b>E<sub>к</sub> = mv²/2</b>
+          <p>Энергия движения. При торможении она переходит в другие виды энергии, например во внутреннюю.</p>
+        </article>
+        <article class="formula-card">
+          <span class="formula-tag">Уравнение состояния газа</span>
+          <b>pV = νRT</b>
+          <p>Связывает давление, объём и температуру идеального газа. R ≈ 8,31 Дж/(моль·К).</p>
+        </article>
+        <article class="formula-card">
+          <span class="formula-tag">Первый закон термодинамики</span>
+          <b>Q = ΔU + A</b>
+          <p>Теплота, переданная газу, идёт на изменение его внутренней энергии и на работу газа.</p>
+        </article>
+        <article class="formula-card">
+          <span class="formula-tag">Закон Кулона</span>
+          <b>F = k|q₁q₂|/r²</b>
+          <p>Сила взаимодействия точечных зарядов обратно пропорциональна квадрату расстояния между ними.</p>
+        </article>
+        <article class="formula-card">
+          <span class="formula-tag">Закон Ома</span>
+          <b>I = U/R</b>
+          <p>Сила тока на участке цепи прямо пропорциональна напряжению и обратно пропорциональна сопротивлению.</p>
+        </article>
+      </div>
+
+      <div class="section-head">
+        <h2>Как подготовиться</h2>
+        <p>Четыре шага от теории до результата</p>
+      </div>
+
+      <ol class="steps">
+        <li>
+          <b>Прочитайте теорию</b>
+          <p>Разберите определения и смысл каждой формулы, а не только её запись.</p>
+        </li>
+        <li>
+          <b>Решите задачи</b>
+          <p>Начните с простых: дано, перевод единиц, формула, подстановка, ответ.</p>
+        </li>
+        <li>
+          <b>Проверьте себя</b>
+          <p>Пройдите викторину по теме и отметьте вопросы, которые вызвали трудности.</p>
+        </li>
+        <li>
+          <b>Разберите ошибки</b>
+          <p>Вернитесь к теории по слабым местам и пройдите тему ещё раз.</p>
+        </li>
+      </ol>
+
+      <div class="cta-banner">
+        <div>
+          <p class="eyebrow">Самопроверка</p>
+          <h2>Проверьте, что осталось в памяти</h2>
+          <p>12 вопросов по четырём темам, разбор каждого ответа и личный рекорд в браузере.</p>
+        </div>
+        <button class="btn btn-primary" type="button" data-go="quiz">Начать викторину →</button>
+      </div>
+    </section>
+
+    <!-- ============ ВКЛАДКА: ВИКТОРИНА ============ -->
+    <section class="tab-panel" id="tab-quiz" role="tabpanel" aria-labelledby="tabQuizBtn" tabindex="0" hidden>
+
+      <!-- ----- старт ----- -->
+      <section class="screen is-active" id="screen-start" aria-labelledby="startTitle">
+        <div class="quiz-intro">
+          <div>
+            <p class="eyebrow">10 класс · школьная программа</p>
+            <h1 id="startTitle">Викторина по физике</h1>
+            <p class="lead">
+              12 вопросов о движении, силах, энергии, газах и электричестве.
+              Выберите тему — или пройдите всю программу подряд.
+            </p>
+          </div>
+          <span class="best-pill" id="bestPill" hidden>Рекорд: <b id="bestPillValue">—</b></span>
+        </div>
+
+        <div class="section-head">
+          <h2>Выберите тему</h2>
+          <p>Каждый вопрос — с иллюстрацией и разбором</p>
+        </div>
+        <div class="topic-grid" id="topicGrid"></div>
+
+        <ul class="feature-row">
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">1</span>
+            <div><b>Один ответ</b><p>Выберите вариант из четырёх — изменить его уже нельзя.</p></div>
+          </li>
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">✓</span>
+            <div><b>Сразу разбор</b><p>После каждого вопроса — объяснение и нужная формула.</p></div>
+          </li>
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">★</span>
+            <div><b>Личный рекорд</b><p>Лучший результат по каждой теме сохраняется в браузере.</p></div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ----- вопросы ----- -->
+      <section class="screen" id="screen-quiz" aria-labelledby="questionText">
+        <div class="quiz-bar">
+          <button class="link-back" id="btnQuit" type="button">← К темам</button>
+          <div class="quiz-meta">
+            <span class="topic-pill" id="quizTopic">Тема</span>
+            <span class="quiz-counter" id="quizCounter">Вопрос 1 из 12</span>
+            <span class="quiz-score" id="quizScore">0 баллов</span>
+          </div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Прогресс викторины" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress">
+          <span class="progress-fill" id="progressFill"></span>
+        </div>
+
+        <article class="question-card">
+          <figure class="question-figure">
+            <img id="questionImage" src="assets/images/q01.svg" alt="" width="800" height="450">
+          </figure>
+          <div class="question-body">
+            <h2 class="question-text" id="questionText"></h2>
+            <div class="options" id="options" role="group" aria-labelledby="questionText"></div>
+
+            <div class="feedback" id="feedback" role="status" hidden>
+              <div class="feedback-head">
+                <span class="feedback-badge" id="feedbackBadge" aria-hidden="true">✓</span>
+                <b id="feedbackTitle">Верно!</b>
+              </div>
+              <p id="feedbackText"></p>
+            </div>
+
+            <div class="question-actions">
+              <p class="hint" id="keyHint">Клавиши <kbd>1</kbd>–<kbd>4</kbd> — ответ, <kbd>Enter</kbd> — дальше</p>
+              <button class="btn btn-primary" id="btnNext" type="button" disabled>Далее →</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- ----- результат ----- -->
+      <section class="screen" id="screen-result" aria-labelledby="resultTitle">
+        <div class="result-card">
+          <div class="result-top">
+            <div class="ring-wrap">
+              <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
+                <circle class="ring-track" cx="60" cy="60" r="52"></circle>
+                <circle class="ring-fill" id="ringFill" cx="60" cy="60" r="52"></circle>
+              </svg>
+              <div class="ring-label"><b id="resultPercent">0%</b><span>результат</span></div>
+            </div>
+            <div class="result-copy">
+              <p class="eyebrow" id="resultTopic">Все темы</p>
+              <h2 id="resultTitle">Отличная работа!</h2>
+              <p class="result-text" id="resultText"></p>
+            </div>
+          </div>
+
+          <div class="result-stats">
+            <div class="stat"><b id="statCorrect">0</b><span>верных ответов</span></div>
+            <div class="stat"><b id="statWrong">0</b><span>ошибок</span></div>
+            <div class="stat"><b id="statBest">—</b><span>личный рекорд</span></div>
+          </div>
+
+          <div class="review" id="review" hidden>
+            <h3>Разбор ошибок</h3>
+            <ul class="review-list" id="reviewList"></ul>
+          </div>
+          <div class="review-perfect" id="reviewPerfect" hidden>
+            <span aria-hidden="true">🎉</span>
+            <p>Ни одной ошибки — можно смело двигаться дальше по программе.</p>
+          </div>
+
+          <div class="result-actions">
+            <button class="btn btn-primary" id="btnRetry" type="button">Пройти ещё раз</button>
+            <button class="btn btn-ghost" id="btnTopics" type="button">Выбрать другую тему</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ============ ВКЛАДКА: ОБ АВТОРЕ ============ -->
+    <section class="tab-panel" id="tab-author" role="tabpanel" aria-labelledby="tabAuthorBtn" tabindex="0" hidden>
+      <div class="author-hero">
+        <!-- Замените имя, класс и описание на свои данные -->
+        <div class="author-card">
+          <div class="author-avatar" aria-hidden="true">⚛</div>
+          <p class="eyebrow">Об авторе</p>
+          <h1>Автор проекта</h1>
+          <p class="author-nick">@Jimmy</p>
+          <p class="author-role">Ученик 10 класса</p>
+          <p class="lead">
+            Привет! Меня зовут <b>@Jimmy</b>, и этот сайт появился как учебный
+            проект по физике: захотелось собрать в одном месте короткий обзор
+            курса и сделать самопроверку, которую не скучно проходить.
+          </p>
+          <ul class="author-facts">
+            <li><b>Автор</b><span>@Jimmy</span></li>
+            <li><b>Проект</b><span>учебный сайт по физике</span></li>
+            <li><b>Класс</b><span>10</span></li>
+            <li><b>Технологии</b><span>HTML, CSS, JavaScript</span></li>
+            <li><b>Год</b><span>2026</span></li>
+          </ul>
+        </div>
+
+        <div class="author-body">
+          <article class="author-note">
+            <h2>Зачем этот сайт</h2>
+            <p>
+              В 10 классе физика становится заметно плотнее: механика, молекулярная
+              физика, термодинамика и электричество идут почти подряд. Держать
+              в голове все формулы сложно, поэтому здесь собраны главные идеи
+              каждого раздела — и викторина, которая помогает проверить,
+              что действительно отложилось.
+            </p>
+            <p>
+              Сайт не заменяет учебник и решение задач, но помогает быстро
+              повторить материал перед контрольной или просто освежить тему.
+            </p>
+          </article>
+
+          <article class="author-note">
+            <h2>Как он сделан</h2>
+            <p>
+              Страница свёрстана с нуля без фреймворков и сборки: HTML, CSS
+              и чистый JavaScript. Викторина работает прямо в браузере,
+              а личные рекорды сохраняются в <code>localStorage</code>.
+              Иллюстрации к вопросам — векторные SVG.
+            </p>
+            <p>
+              Оформление — тёмная тема с фиолетовым акцентом, включая
+              SVG-иллюстрации: они генерируются скриптом в той же палитре,
+              что и интерфейс.
+            </p>
+            <div class="author-tags" aria-label="Использованные технологии">
+              <span class="author-tag">HTML5</span>
+              <span class="author-tag">CSS3</span>
+              <span class="author-tag">JavaScript</span>
+              <span class="author-tag">SVG</span>
+              <span class="author-tag">localStorage</span>
+            </div>
+            <p class="author-cta">
+              Автор и вёрстка — <b>@Jimmy</b>
+            </p>
+          </article>
+
+          <article class="author-note">
+            <h2>Планы</h2>
+            <ul class="author-list">
+              <li>Расширить банк вопросов и добавить новые темы.</li>
+              <li>Сделать задачи с пошаговыми решениями.</li>
+              <li>Добавить режим тренировки по формулам.</li>
+            </ul>
+            <p class="author-cta">
+              <button class="btn btn-primary" type="button" data-go="quiz">Проверить себя →</button>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Физика · 10 класс · учебный проект · автор <b>@Jimmy</b></p>
+    <p class="footer-note">Тёмная тема с фиолетовым акцентом. HTML, CSS и JavaScript без зависимостей. Иллюстрации в вопросах — SVG.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

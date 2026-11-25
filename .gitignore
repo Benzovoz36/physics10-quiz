@@ -1,0 +1,13 @@
+﻿# ОС и редакторы
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+
+# временные файлы и проверки
+.tmp-shots/
+node_modules/
+
+# секреты
+.env
+.env.*
